@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 
     padding: 0;
@@ -7,41 +7,94 @@
 
 }
 
-    body{
+body {
     font-family: 'Roboto', sans-serif;
 
     line-height: 1.6;
 
-    color: rgb(9, 234, 250)
+    color: rgb(54, 40, 40)
+}
 
-    }
-    .cabecalho-section{
-        background: url('car-wash.webp') 
-        no-repeat center/cover;
-        height: 100vh;
+.cabecalho-section {
+    background: url('car-wash.webp') no-repeat center/cover;
+    height: 100vh;
 
-        display: flex;
+    display: flex;
 
-        justify-content: center;
+    justify-content: center;
 
-        align-items: center;
+    align-items: center;
 
-        text-align: center;
+    text-align: center;
 
-        color: #fff;
+    color: #fff;
 
-    }
-    header{
-        text-align: center;
+}
 
-        padding: 100px 20px;
+header {
+    text-align: center;
 
-        color: #fff;
-    }
-    header h1{
-            font-size: 4rem;
+    padding: 100px 20px;
 
-            text-shadow: 4px 4px 8px
-            rgb(0, 0, 0.8)
-        }
-    
+    color: #fff;
+}
+
+header h1 {
+    font-size: 4.5rem;
+
+    text-shadow: 4px 4px 8px rgb(0, 0, 0.8)
+}
+
+header p {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0.8)
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 255, 0.966);
+    color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 55px;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
+
+header a:hover {
+    background-color: #040685;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0.4);
+    z-index: -1;
+}
+
+.cabeçalho-conteudo {
+    max-width: 600px;
+}
+
+.cabecalho-conteudo h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.cabecalho-conteudo p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-primary{
+    padding: 0.7rem 1.5rem;
+    background-color: #007bff;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
